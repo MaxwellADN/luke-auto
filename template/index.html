@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Luke Auto-école</title>
+		<meta name="description" content="Luke Auto-école : permis auto & moto, dans la bonne humeur et la convivialité... Regardez nos taux de réussite pour comprendre !">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="template/css/main.css">
+		<link rel="stylesheet" href="template/css/jquery-ui.css">
+		<script src="template/js/jquery.js"></script>
+		<script src="template/js/jquery-ui.js"></script>
+		<script src="template/js/functions.js"></script>
+	</head>
+	<body>
+		<?php echo $this->popup(); ?>
+		<div id="index"></div>
+		<header>Luke Auto-école</header>
+		<nav>
+			<ul>
+				<li><a href="<?php echo ($this->_url[0] == 'index') ? './#index' : './'; ?>">Accueil</a></li>
+				<li><a href="./#presentation">Présentation</a></li>
+				<li><a href="./#training">Nos formations</a></li>
+				<li><a href="./#contact">Nous contacter</a></li>
+				<li><a href="?login">Espace personnel</a></li>
+				<?php echo $this->logout(); ?>
+			</ul>
+		</nav>
+		<div id="wrapper">
+			<article>
+				<?php echo $this->builder(); ?>
+			</article>
+			<footer>Copyright &copy; 1981-2014, Luke Auto-école.</footer>
+		</div>
+	</body>
+</html>

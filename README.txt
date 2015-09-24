@@ -4,7 +4,7 @@ PPE Readme
 ## Installation
 
 Envoyer les fichiers sur un serveur wampserver
-Créer une table "ppe" dans phpmyadmin puis y importer le fichier ppe.sql
+CrÃ©er une table "ppe" dans phpmyadmin puis y importer le fichier ppe.sql
 
 ## Identifiants
 
@@ -19,13 +19,10 @@ password
 
 ## Auteurs
 
-Rémi JEAN
-Cyprien SONNET
-Mourad DRIS
+
 Maxwell ADANZOUNNON
-Arnaud DUVAL
-Sébastien DEHAES
-Quentin VANDINI
+RÃ©mi JEAN
+
 
 ## Version
 
